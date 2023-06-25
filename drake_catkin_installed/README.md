@@ -1,3 +1,13 @@
+# out of memory 문제
+```bash
+cd $HOME
+gedit .bazelrc
+  ##
+   build --jobs=HOST_CPUS*0.4
+  ##
+```
+
+
 # Catkin Project with an Installed Drake
 
 This example uses the [`catkin`](https://wiki.ros.org/catkin) build system, as
